@@ -1,8 +1,8 @@
-# Employee Directory
+# React Portfolio
 
-![Dashboard Image](src/screenshot/screenshot.jpg)
+![Dashboard Image](assets\screenshot\screenshot1.jpg)
 
-> [Employee Directory](https://jamtrip7.github.io/employee-directory)
+> [React Portfolio]()
 
 ---
 
@@ -15,13 +15,13 @@
 - [Credits](#credits)
 - [License](#license)
 
-[Back to Top](#Employee-Directory)
+[Back to Top](#React-Portfolio)
 
 ---
 
 ## Description
 
-This is an Employee/User Directory. That allows users to serach for an employee/user to seek out their personal information related to "Name, Location, Phone, Email, Date of Birth".
+This is my new portfolio but deployed using React.
 
 #### Technologies Used
 
@@ -30,24 +30,27 @@ This is an Employee/User Directory. That allows users to serach for an employee/
 - JavaScript
 - BootStrap
 - React
-- Moment
 - Create React App
 - JSX
 - JSX Variables
 - Props
+- GreenSock
+- SVG
+- JQuery
+- TweenMax
 
-[Back to Top](#Employee-Directory)
+[Back to Top](#React-Portfolio)
 
 ---
 
 ## How to Use
 
- 1. Click on "Employee Directory" link.
- 2. Use Search button to find specific employees based on "Name, Location, Phone, Email, Date of Birth".
- 3. Colored button are interactive with the exception of the images button.
- 4. Separate information from top to bottom by clicking on any of the colored buttons.
+ 1. Click on "Click on the three horizontally stacked bars".
+ 2. Menu option will rotate open.
+ 3. Click on on of the options to open a modal with information.
+ 4. Modals have attachements to click on and view material.
 
-[Back to Top](#Employee-Directory)
+[Back to Top](#React-Portfolio)
 
 ---
 
@@ -56,7 +59,7 @@ This is an Employee/User Directory. That allows users to serach for an employee/
 - Linkedin - [Jamie Rippee](https://www.linkedin.com/in/jamie-rippee-28316513/)
 - Github - [jamtrip7](https://github.com/jamtrip7)
 
-[Back to Top](#Employee-Directory)
+[Back to Top](#React-Portfolio)
 
 ---
 
@@ -64,7 +67,7 @@ This is an Employee/User Directory. That allows users to serach for an employee/
 
 - [License Info](https://choosealicense.com/licenses/unlicense/#)
 
-[Back to Top](#Employee-Directory)
+[Back to Top](#React-Portfolio)
 
 ---
 
@@ -96,7 +99,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>
 
-[Back to Top](#Employee-Directory)
+[Back to Top](#React-Portfolio)
 
 ---
 

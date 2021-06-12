@@ -1,0 +1,408 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+  }
+
+  body {
+  background-image: url('../images/datacenter.webp');
+  /* background-size: cover; */
+  background-position: center center;
+}
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, sans-serif;
+  }
+  
+  h3 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-family: serif;
+    font-size: 2em;
+  }
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  min-width: auto;
+  min-height: auto; 
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  max-width: 900px;
+  max-height: 100%;
+}
+  @media screen and (min-width: 600px) {
+    .menu {
+      max-width: 80vw;
+      max-height: 80vh; 
+    } 
+  }
+  
+.main-menu {
+  cursor: pointer; 
+}
+  .main-menu circle {
+    transition: opacity 250ms; 
+  }
+    .main-menu circle:hover {
+      opacity: 1; 
+    }
+  .main-menu.is-active > circle {
+    opacity: 1; 
+  }
+  
+  [class$="-button"] {
+    cursor: pointer; 
+}
+  [class$="-button"] circle {
+    opacity: 0;
+    transition: opacity 250ms; 
+}
+  [class$="-button"] circle:hover {
+    opacity: 0.6; 
+}
+  [class$="-button"] path {
+    pointer-events: none; 
+}
+
+/* The Modal (background) */
+.w3-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.w3-modal-content {
+  background-color: #464545;
+  padding: 20px;
+  border: 1px solid #888;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.w3-container p1 {
+  width: 650px;
+  height: 35px;
+}
+
+.resume img {
+  display: flex;
+  float: right;
+  justify-content: space-between;
+  margin: -150px 15px 0px 0px;
+  width: 130px;
+  height: 150px;
+}
+
+#hockey img {
+  display: flex;
+  margin: 0px 0px 20px 275px;
+  width: 325px;
+  height: 440px;
+}
+
+#dirtbikes img {
+  display: flex;
+  margin: 0px 0px 20px 205px;
+  width: 435px;
+  height: 340px;
+}
+
+.w3-padding {
+  background-color: #004177;
+  padding: 30px 10px!important;
+  
+}
+
+.w3-padding h3{
+  padding: 1px;
+  background-color: #004177;
+}
+
+/* changes home modal thank you */
+.w3-container h4 {
+  padding: 5px;
+  background-color: #004177;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  font-family: serif;
+  font-size: 2em;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+
+/* changes home modal bottom message */
+.w3-container h5 {
+  padding: 10px;
+  background-color: #004177;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  font-family: serif;
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: -20px;
+}
+
+/* changes portfolio, mars daily position */
+.w3-container h6 {
+  padding: 10px;
+  display: flex;
+  color: white;
+  text-decoration: underline;
+  justify-content: right;
+  font-style: italic;
+  font-family: serif;
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 170px;
+  line-height: 20px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* changes portfolio, group mentality position */
+.w3-container h7 {
+  padding: 10px;
+  display: flex;
+  color: white;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: serif;
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 225px;
+  line-height: 20px;
+}
+
+/* changes portfolio, first portfolio position */
+.w3-container h8 {
+  padding: 10px;
+  display: flex;
+  color: white;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: serif;
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+  width: 250px;
+  line-height: 20px;
+}
+
+/* changes portfolio, group mentality position */
+#first img {
+  padding: 10px;
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+#second img {
+  padding: 10px;
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+#third img {
+  padding: 10px;
+  display: flex;
+  width: 200px;
+  height: 200px;
+}
+
+/* hobbies h9 adjustments */
+.hobbies h9 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: serif;
+  font-size: 3em;
+}
+
+/* hobbies h9 adjustments */
+.hobbies p2 {
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+}
+
+/* changes home modal name width */
+.w3-container h1 {
+  width: 500px;
+  line-height: 35px;
+}
+
+/* pic dims */
+.w3-container home img {
+  width: 200px;
+  margin: 16px 16px 16px 16px;
+}
+
+.w3-container,.w3-panel {
+  padding: 0em 0px;
+}
+
+.w3-container {
+ padding-top: 10px;
+ line-height: 35px;
+}
+
+div h2 {
+  background-color: #de86f8;
+  padding: 15px;
+  color: #FFFFFF;
+}
+
+div id h1 {
+  color: #FFFFFF;
+}
+
+div p {
+  color: #FFFFFF;
+  padding: 1em;
+  line-height: 30px;
+}
+
+/* home profile pic */
+div home img {
+  border-radius: 50%;
+  color: #FFFFFF;
+}
+
+div profile img {
+  color: #FFFFFF;
+  float: right;
+}
+
+div {
+  color: #FFFFFF;
+}
+
+header h2 {
+  text-decoration: underline;
+}
+
+.close {
+  color: #FFFFFF;
+  width: 30px;
+  margin-top: 20px;
+}
+
+.connect {
+  background-color: transparent;
+  display: inline-flexbox;
+  padding: 0px; 
+  clear: both;
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  text-align: center;
+  background-position: center center;
+}
+
+.connect ul button a {
+  list-style: none;
+  margin: 30px 30px;
+  display: inline-block;
+  font-style: 30px;
+  padding: 50px 50px;
+  color: rgb(255, 253, 253);
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: .5s;
+  font-size: 50px; 
+}
+
+.fa-google:hover {
+  background: #349751;
+  color: black;
+  opacity: 0.7;
+  text-decoration-line: none;
+}
+
+.fa-linkedin:hover {
+  background: #007bb5;
+  color: black;
+  opacity: 0.7;
+}
+
+.fa-github:hover {
+  background: #292929;
+  color: black;
+  opacity: 0.7;
+}
+
+.connect h3 {
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+.connect p {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+.connect button a {
+  color: blue;
+  font-size: 25px;
+} 
+
+.connect button {
+    background-color: transparent;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
