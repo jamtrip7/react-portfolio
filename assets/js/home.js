@@ -1,4 +1,0 @@
-
-
-
-$("#demo01").animatedModal();
