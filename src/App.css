@@ -1,0 +1,76 @@
+body {
+  background-image: url('./assets/images/datacenter.webp');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+pages about {
+  display: flex;
+  color: white;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: serif;
+  font-size: 2em;
+}
+.about {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  margin: 2vh;
+}
+
+.about h2 {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.info {
+  color: #FFFFFF;
+}
+
+.github {
+  color: rgb(255, 102, 0);
+  font-weight: bold;
+}
+
+.portfolio {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  margin-top: 20vh;
+}
+
+.portfolio h2 {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  margin-top: 20vh;
+  text-decoration: underline;
+}
+
+.resume {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  margin-top: 20vh;
+}
+
+.resume1 {
+  color: rgb(255, 102, 0);
+  font-weight: bold;
+}
+
+.resume h2 {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  margin-top: 20vh;
+  text-decoration: underline;
+}
+
+.Group-Mentality,.First-Portfolio {
+  margin-top: 3vh;
+}
+
+/* .First-Portfolio {
+  margin-top: 3vh;
+} */

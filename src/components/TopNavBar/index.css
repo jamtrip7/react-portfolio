@@ -1,0 +1,13 @@
+.NavBar a {
+    display: flex;
+    color: white !important;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: serif;
+    font-size: 2em;
+}
+
+.navbar-brand {
+   font-size: 2em;
+
+}
