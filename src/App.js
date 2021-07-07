@@ -26,11 +26,9 @@ function App() {
                 <a href="#Top">Back To Top</a>
                 <Resume className="resume" />
                 <a href="#Top">Back To Top</a>
-                
               </Col>
             </Row>
         </Container>
-        
     </div>
   
   );
