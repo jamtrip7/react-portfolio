@@ -13,7 +13,7 @@ export default function About() {
 
                 <h2>About Me</h2>
         
-                <p>I'm a Full Stack Web Developer with MSU's Coding Bootcamp currently learing MongoDB, JSCompression, React, among many other things learned, including HTML, CSS, and Javascript.</p>
+                <p>I'm a Full Stack Web Developer with MSU's Coding Bootcamp currently learning MongoDB, JSCompression, React, among many other things learned, including HTML, CSS, and Javascript.</p>
                 <p>I have 15 years of operations management experience. I am also the small business owner of Northern Grill Seasonings.</p>
                 <p>Let's dream the the future and make it reality!</p>
             </div>
