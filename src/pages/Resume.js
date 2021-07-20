@@ -1,10 +1,10 @@
 import React from 'react';
 import '../index.css';
 import '../App.css';
-import Resume1 from '../assets/resume/Tech-Resume.pdf';
-import { Document, Page } from 'react-pdf';
-import ResumeScreenshot from '../assets/images/resume-screenshot.jpg';
-import TechResume from '../assets/resume/Tech-Resume.pdf';
+import Resume1 from '../assets/resume/Tech-Resume.pdf'
+import { Document, Page } from 'react-pdf'
+import ResumeScreenshot from '../assets/images/resume-screenshot.jpg'
+import TechResume from '../assets/resume/Tech-Resume.pdf'
 
 export default function Resume() {
     return (

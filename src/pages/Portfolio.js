@@ -1,9 +1,9 @@
 import React from 'react';
 import '../index.css';
 import '../App.css';
-import MarsDaily from '../assets/images/largeLayoutMars.png';
-import GroupMentality from '../assets/images/homepage-screenshot.jpg';
-import FirstPortfolio from '../assets/images/portfolio1.jpg';
+import MarsDaily from '../assets/images/largeLayoutMars.png'
+import GroupMentality from '../assets/images/homepage-screenshot.jpg'
+import FirstPortfolio from '../assets/images/portfolio1.jpg'
 
 
 export default function Portfolio() {
